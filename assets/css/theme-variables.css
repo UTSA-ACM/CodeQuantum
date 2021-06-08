@@ -1,4 +1,48 @@
+ /*
+    Color picker I used
+    https://coolors.co/a72608-fa9f42-fcff6c-3891a6-8783d1-aa9aba
+ */
+
 :root {
-    --primary: #3774c4;
-    --secondary: #cf8a23;
+    --color1: #A72608;
+    --color2: #FA9F42;
+    --color3: #E88723;
+    --color4: #3891A6;
+    --color5: #8783D1;
+    --color6: #AA9ABA;
+
+    /* ---------------------------------------------
+        GENERAL COLORS
+    --------------------------------------------- */
+    --hoverColor: var(--color1);
+    --activeColor: var(--color3) !important;
+
+    /* ---------------------------------------------
+        BACKGROUND COLORS
+    --------------------------------------------- */
+    --primaryBackground: var(--color6);
+    --primaryBackgroundDarker: var(--color5);
+    --secondaryBackground: var(--color3);
+    --secondaryBackgroundDarker: var(--color4);
+
+    /* ---------------------------------------------
+        BUTTON COLORS
+    --------------------------------------------- */
+    --buttonFontColor: white;
+    --primaryButton: var(--color2);
+
+    /* ---------------------------------------------
+        FONT COLORS
+    --------------------------------------------- */
+    --primaryFontColor: white;
+    --secondaryFontColor: #7a7a7a;
+    --selectionColor: var(--color4);
+    --selectionBackground: var(--color3);
+    --boldFontColor: var(--color2);
+
+    /* ---------------------------------------------
+        BASIC COLORS?
+    --------------------------------------------- */
+    --white: #fff;
+    --neutralGray: #7a7a7a;
 }
