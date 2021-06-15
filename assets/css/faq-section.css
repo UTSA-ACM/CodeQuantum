@@ -1,5 +1,9 @@
 @import "theme-variables.css";
 
+#faq {
+    padding: 100px 0;
+}
+
 .accordion a {
     position: relative;
     display: -webkit-box;
