@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Palanquin:wght@300&display=swap');
 @import "theme-variables.css";
 
+
 /* ---------------------------------------------
     GENERAL RESET
 --------------------------------------------- */
@@ -54,7 +55,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Happy Monkey', cursive;
+  font-family: var(--primaryFontStyle);
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -102,11 +103,11 @@ img {
 html,
 body {
   background: var(--primaryBackground);
-  font-family: 'Happy Monkey', cursive;
+  font-family: var(--primaryFontStyle);
 }
 
 p {
-  font-family: 'Palanquin', sans-serif;
+  font-family: var(--secondaryFontStyle);
 }
 
 ::selection {

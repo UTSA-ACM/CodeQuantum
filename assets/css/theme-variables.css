@@ -4,6 +4,15 @@
  */
 
 :root {
+    /* ---------------------------------------------
+        FONT STYLING
+    --------------------------------------------- */
+    --primaryFontStyle: 'Happy Monkey', cursive !important;
+    --secondaryFontStyle: 'Palanquin', sans-serif !important;
+
+    /* ---------------------------------------------
+        DECLARED COLORS
+    --------------------------------------------- */
     --color1: #A72608;
     --color2: #FA9F42;
     --color3: #E88723;
