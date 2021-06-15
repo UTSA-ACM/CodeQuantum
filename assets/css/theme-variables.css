@@ -7,8 +7,8 @@
     /* ---------------------------------------------
         FONT STYLING
     --------------------------------------------- */
-    --primaryFontStyle: 'Happy Monkey', cursive !important;
-    --secondaryFontStyle: 'Palanquin', sans-serif !important;
+    --primaryFontStyle: 'Happy Monkey', cursive;
+    --secondaryFontStyle: 'Palanquin', sans-serif;
 
     /* ---------------------------------------------
         DECLARED COLORS
