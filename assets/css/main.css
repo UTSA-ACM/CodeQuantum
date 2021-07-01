@@ -136,6 +136,12 @@ p {
   }
 }
 
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
