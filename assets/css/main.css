@@ -64,9 +64,16 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a, a:hover, a:active {
+a, a:visited {
   text-decoration: none !important;
-  color: var(--activeColor);
+  color: var(--textActiveColor);
+}
+
+a:hover,
+a:active,
+a:visited:hover,
+a:visited:active {
+  color: var(--textHoverColor);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -134,12 +141,6 @@ p {
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
-}
-
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
 }
 
 a.main-button-slider {
