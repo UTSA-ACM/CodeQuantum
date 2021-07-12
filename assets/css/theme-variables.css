@@ -25,6 +25,8 @@
     --------------------------------------------- */
     --hoverColor: var(--color1);
     --activeColor: var(--color3) !important;
+    --textHoverColor: var(--color4);
+    --textActiveColor: var(--color1);
 
     /* ---------------------------------------------
         BACKGROUND COLORS
