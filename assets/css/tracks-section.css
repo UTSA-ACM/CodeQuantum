@@ -16,7 +16,7 @@
     border-radius: 5px;
     padding: 60px 30px;
     text-align: center;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
 }
 
 .tracks-item h2 {
@@ -26,7 +26,7 @@
     left: 45px;
     font-size: 100px;
     font-weight: 600;
-    color: #fdefe9;
+    color: var(--secondaryFontColor);
 }
 
 .tracks-item img {
@@ -39,7 +39,7 @@
 .tracks-item h4 {
     margin-top: 0px;
     font-size: 22px;
-    color: #1e1e1e;
+    color: var(--primaryFontColor);
     margin-bottom: 25px;
 }
 

@@ -136,7 +136,7 @@
 
 .header-area .main-nav .nav li.submenu ul li a {
     display: block;
-    background: var(--primaryBackgroundDarker);
+    background: var(--primaryBackground);
     color: var(--primaryFontColor)!important;
     padding-left: 20px;
     height: 40px;
@@ -358,8 +358,8 @@
     .header-area .main-nav .nav li {
         width: 100%;
         background: var(--primaryBackground);
-        /*border-bottom: 1px solid var(--primaryBackgroundDarker);*/
-        border: 1px solid var(--primaryBackgroundDarker);
+        /*border-bottom: 1px solid var(--primaryBackground);*/
+        border: 1px solid var(--primaryBackground);
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
@@ -372,7 +372,7 @@
         color: var(--primaryFontColor) !important;
     }
     .header-area .main-nav .nav li a:hover {
-        background: var(--activeColor) !important;
+        background: var(--hoverColor) !important;
         color: var(--primaryFontColor) !important;
     }
     .header-area .main-nav .nav li.submenu ul {
