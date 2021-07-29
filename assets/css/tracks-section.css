@@ -26,7 +26,7 @@
     left: 45px;
     font-size: 100px;
     font-weight: 600;
-    color: #fdefe9;
+    color: var(--secondaryFontColor);
 }
 
 .tracks-item img {
@@ -39,7 +39,7 @@
 .tracks-item h4 {
     margin-top: 0px;
     font-size: 22px;
-    color: #1e1e1e;
+    color: var(--primaryFontColor);
     margin-bottom: 25px;
 }
 

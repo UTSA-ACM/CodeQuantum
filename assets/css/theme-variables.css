@@ -43,7 +43,7 @@
         FONT COLORS
     --------------------------------------------- */
     --primaryFontColor: white;
-    --secondaryFontColor: #7a7a7a;
+    --secondaryFontColor: var(--color3);
     --selectionColor: var(--color4);
     --selectionBackground: var(--color3);
     --boldFontColor: var(--color2);
