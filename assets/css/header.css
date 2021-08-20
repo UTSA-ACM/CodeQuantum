@@ -63,7 +63,7 @@
 .header-area .main-nav .nav {
     float: left;
     margin-top: 27px;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-right: 0px;
     /*background-color: var(--primaryBackground);*/
     padding: 0px 20px;
@@ -87,7 +87,7 @@
 .header-area .main-nav .nav li a {
     display: block;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 20px;
     color: var(--primaryFontColor);
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
