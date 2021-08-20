@@ -207,7 +207,7 @@
     -o-transition: all 0.4s;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
-    background-color: var(--primaryFontColor);
+    background-color: var(--color5);
     display: block;
     position: absolute;
     width: 30px;
@@ -218,7 +218,7 @@
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -227,7 +227,7 @@
     -o-transition: all 0.4s;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
     display: block;
     position: absolute;
     width: 30px;
@@ -238,7 +238,7 @@
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -279,11 +279,11 @@
     -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
     -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
     transform: translateY(6px) translateX(1px) rotate(45deg);
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -291,11 +291,11 @@
     -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
     -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
     transform: translateY(-6px) translateX(1px) rotate(-45deg);
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .header-area.header-sticky {
