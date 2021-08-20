@@ -96,7 +96,7 @@ ul {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 25px;
   color: var(--primaryFontColor);
 }
@@ -108,6 +108,10 @@ img {
 @media (max-width: 768px) {
   .hide-image-on-mobile {
     display: none;
+  }
+
+  h2 {
+    font-size: 24px;
   }
 }
 
@@ -168,6 +172,7 @@ a.main-button-slider {
 
 a.main-button-slider:hover {
   background-color: var(--hoverColor);
+  color: orange;
 }
 
 a.main-button {
@@ -187,6 +192,7 @@ a.main-button {
 
 a.main-button:hover {
   background-color: var(--hoverColor);
+  color: initial;
 }
 
 button.main-button {
@@ -219,7 +225,7 @@ button.main-button:hover {
 .center-heading h2 {
   margin-top: 0;
   text-align: center;
-  font-size: 42px;
+  font-size: 50px;
   font-weight: 700;
   color: var(--primaryFontColor);
   margin-bottom: 25px;

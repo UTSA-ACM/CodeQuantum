@@ -21,13 +21,17 @@
     font-size: 74px;
     /*line-height: 80px;*/
     letter-spacing: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: var(--primaryFontColor)
 }
 
 .hero-area .hero-text h1 em {
     font-style: normal;
     color: var(--boldFontColor);
+}
+
+.hero-area .hero-text h2 {
+    margin-bottom: 10px;
 }
 
 .hero-area .hero-text p {
