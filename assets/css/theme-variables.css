@@ -13,40 +13,37 @@
     /* ---------------------------------------------
         DECLARED COLORS
     --------------------------------------------- */
-    --color1: #A72608;
-    --color2: #FA9F42;
-    --color3: #E88723;
-    --color4: #3891A6;
-    --color5: #8783D1;
-    --color6: #AA9ABA;
+    --color1: #EF6351;
+    --color2: #FCE1A7;
+    --color3: #C97CD8;
+    --color4: #DCFFDE;
+    --color5: #253D5B;
 
     /* ---------------------------------------------
         GENERAL COLORS
     --------------------------------------------- */
     --hoverColor: var(--color1);
     --activeColor: var(--color3) !important;
-    --textHoverColor: var(--color4);
-    --textActiveColor: var(--color1);
+    --textHoverColor: var(--color1);
+    --textActiveColor: var(--color3);
 
     /* ---------------------------------------------
         BACKGROUND COLORS
     --------------------------------------------- */
-    --primaryBackground: var(--color6);
-    --primaryBackgroundDarker: var(--color5);
+    --primaryBackground: var(--color5);
     --secondaryBackground: var(--color3);
-    --secondaryBackgroundDarker: var(--color4);
 
     /* ---------------------------------------------
         BUTTON COLORS
     --------------------------------------------- */
     --buttonFontColor: white;
-    --primaryButton: var(--color2);
+    --primaryButton: var(--color3);
 
     /* ---------------------------------------------
         FONT COLORS
     --------------------------------------------- */
     --primaryFontColor: white;
-    --secondaryFontColor: #7a7a7a;
+    --secondaryFontColor: var(--color3);
     --selectionColor: var(--color4);
     --selectionBackground: var(--color3);
     --boldFontColor: var(--color2);

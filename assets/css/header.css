@@ -55,11 +55,15 @@
     transition: all 0.3s ease 0s;
 }
 
+.header-area .main-nav .logo img {
+    height: 35px;
+    width: 35px;
+}
 
 .header-area .main-nav .nav {
     float: left;
     margin-top: 27px;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-right: 0px;
     /*background-color: var(--primaryBackground);*/
     padding: 0px 20px;
@@ -83,7 +87,7 @@
 .header-area .main-nav .nav li a {
     display: block;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 20px;
     color: var(--primaryFontColor);
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
@@ -136,7 +140,7 @@
 
 .header-area .main-nav .nav li.submenu ul li a {
     display: block;
-    background: var(--primaryBackgroundDarker);
+    background: var(--primaryBackground);
     color: var(--primaryFontColor)!important;
     padding-left: 20px;
     height: 40px;
@@ -203,7 +207,7 @@
     -o-transition: all 0.4s;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
-    background-color: var(--primaryFontColor);
+    background-color: var(--color5);
     display: block;
     position: absolute;
     width: 30px;
@@ -214,7 +218,7 @@
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -223,7 +227,7 @@
     -o-transition: all 0.4s;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
     display: block;
     position: absolute;
     width: 30px;
@@ -234,7 +238,7 @@
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -275,11 +279,11 @@
     -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
     -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
     transform: translateY(6px) translateX(1px) rotate(45deg);
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -287,11 +291,11 @@
     -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
     -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
     transform: translateY(-6px) translateX(1px) rotate(-45deg);
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-    background-color: var(--primaryFontColor);
+    background-color: var(--color1);
 }
 
 .header-area.header-sticky {
@@ -358,8 +362,8 @@
     .header-area .main-nav .nav li {
         width: 100%;
         background: var(--primaryBackground);
-        /*border-bottom: 1px solid var(--primaryBackgroundDarker);*/
-        border: 1px solid var(--primaryBackgroundDarker);
+        /*border-bottom: 1px solid var(--primaryBackground);*/
+        border: 1px solid var(--primaryBackground);
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
@@ -372,7 +376,7 @@
         color: var(--primaryFontColor) !important;
     }
     .header-area .main-nav .nav li a:hover {
-        background: var(--activeColor) !important;
+        background: var(--hoverColor) !important;
         color: var(--primaryFontColor) !important;
     }
     .header-area .main-nav .nav li.submenu ul {

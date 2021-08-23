@@ -73,7 +73,16 @@ a:hover,
 a:active,
 a:visited:hover,
 a:visited:active {
-  color: var(--textHoverColor);
+  color: var(--hoverColor);
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -87,7 +96,7 @@ ul {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 25px;
   color: var(--primaryFontColor);
 }
@@ -101,6 +110,9 @@ img {
     display: none;
   }
 
+  h2 {
+    font-size: 24px;
+  }
 }
 
 
@@ -160,6 +172,7 @@ a.main-button-slider {
 
 a.main-button-slider:hover {
   background-color: var(--hoverColor);
+  color: orange;
 }
 
 a.main-button {
@@ -179,6 +192,7 @@ a.main-button {
 
 a.main-button:hover {
   background-color: var(--hoverColor);
+  color: initial;
 }
 
 button.main-button {
@@ -211,7 +225,7 @@ button.main-button:hover {
 .center-heading h2 {
   margin-top: 0;
   text-align: center;
-  font-size: 42px;
+  font-size: 50px;
   font-weight: 700;
   color: var(--primaryFontColor);
   margin-bottom: 25px;
@@ -244,7 +258,7 @@ button.main-button:hover {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px var(--primaryBackground), 0 0 20px var(--primaryBackground), 0 0 30px var(--primaryBackgroundDarker), 0 0 40px var(--primaryBackgroundDarker), 0 0 50px var(--primaryBackgroundDarker), 0 0 60px var(--primaryBackgroundDarker), 0 0 70px var(--primaryBackgroundDarker);
+    text-shadow: 0 0 10px var(--primaryBackground), 0 0 20px var(--primaryBackground), 0 0 30px var(--primaryBackground), 0 0 40px var(--primaryBackground), 0 0 50px var(--primaryBprimaryBackgroundackgroundDarker), 0 0 60px var(--primaryBackground), 0 0 70px var(--primaryBackground);
   }
 
   to {
@@ -258,7 +272,7 @@ button.main-button:hover {
 --------------------------------------------- */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, var(--primaryBackground) 0%, var(--primaryBackgroundDarker) 100%);
+  background-image: linear-gradient(145deg, var(--primaryBackground) 0%, var(--primaryBackground) 100%);
   left: 0;
   right: 0;
   top: 0;

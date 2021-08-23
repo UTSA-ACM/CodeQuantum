@@ -38,3 +38,7 @@
 #about-us .right-text p span {
     font-weight: 700;
 }
+
+#about-us .about-title {
+    margin-bottom: 15px;
+}
