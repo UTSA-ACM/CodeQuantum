@@ -2,7 +2,6 @@
 
 	"use strict";
 
-
 	$('.owl-carousel').owlCarousel({
 		loop: true,
 		margin: 30,
@@ -112,7 +111,21 @@
 				}
 			});
 		})
+
+		$('.sponsor-carousel').slick({
+			lazyLoad: 'ondemand',
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 1500,
+			arrows: false,
+			initialSlide: randomFirstSlide()
+		});
 	});
+
+	function randomFirstSlide() {
+		return Math.floor(Math.random() * 6);
+	}
 
 	const Accordion = {
 		settings: {
