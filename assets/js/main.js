@@ -104,6 +104,7 @@
 		});
 	});
 
+	// random function for choosing first carousel slide
 	function randomFirstSlide() {
 		return Math.floor(Math.random() * 6);
 	}
