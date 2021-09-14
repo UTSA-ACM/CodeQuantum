@@ -19,9 +19,11 @@
         <link rel="stylesheet" href="assets/css/tracks-section.css">
         <link rel="stylesheet" href="assets/css/about-us-section.css">
         <link rel="stylesheet" type="text/css" href="assets/css/faq-section.css">
-        <link rel="stylesheet" href="assets/css/testimonial-section.css">
         <link rel="stylesheet" href="assets/css/footer-section.css">
-        <link rel="stylesheet" href="assets/css/owl-carousel.css">
+        <link rel="stylesheet" href="assets/css/sponsorship-section.css">
+        <link rel='stylesheet' href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
@@ -33,34 +35,24 @@
             </div>
         </div>
 
-        <header class="header-area header-sticky">
+        <header class="header-area header-sticky" id="header">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <nav class="main-nav">
                             <a href="index.html" class="logo">
                                 <img src="assets/images/CodeQuantum%20Logo_Color.png" />
-<!--                                CodeQuantum-->
                             </a>
 
                             <ul class="nav">
                                 <li class="scroll-to-section"><a href="#hero" class="menu-item">Home</a></li>
                                 <li class="scroll-to-section"><a href="#about-us" class="menu-item">About</a></li>
                                 <li class="scroll-to-section"><a href="#tracks" class="menu-item">Tracks</a></li>
-<!--                            <li class="scroll-to-section"><a href="#schedule" class="menu-item">Tracks</a></li> -->
+                                <li class="scroll-to-section"><a href="#location" class="menu-item">Location</a></li>
+<!--                                <li class="scroll-to-section"><a href="#schedule" class="menu-item">Schedule</a></li>-->
                                 <li class="scroll-to-section"><a href="#faq" class="menu-item">F.A.Q.</a></li>
-                                <li class="scroll-to-section"><a href="#connect" class="menu-item">Connect</a></li>
-                                <!-- dropdown menu
-                                <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Testimonials</a></li>
-                                <li class="submenu">
-                                    <a href="javascript:;">Drop Down</a>
-                                    <ul>
-                                        <li><a href="" class="menu-item">About Us</a></li>
-                                        <li><a href="" class="menu-item">Features</a></li>
-                                        <li><a href="" class="menu-item">FAQ's</a></li>
-                                        <li><a href="" class="menu-item">Blog</a></li>
-                                    </ul>
-                                </li> -->
+<!--                                <li class="scroll-to-section"><a href="#sponsors" class="menu-item">Sponsors</a></li>-->
+<!--                                <li class="scroll-to-section"><a href="#connect" class="menu-item">Connect</a></li>-->
                             </ul>
                             <a class="menu-trigger">
                                 <span>Menu</span>
@@ -79,8 +71,8 @@
                              data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                             <h1>Code Quantum <em>2021</em> Virtual!</h1>
                             <h2 style="margin-bottom: 25px;">October 23 - 24, 2021</h2>
-                            <a class="main-button button" href="https://rowdyhacks.typeform.com/to/xQcmEslD">Register as a Hacker</a>
-                            <a class="main-button button" style="margin-top: 15px;" href="https://rowdyhacks.typeform.com/to/mqRNwlsu">Register as a Mentor</a>
+                            <a class="main-button button" onclick="window.location.href='https://rowdyhacks.typeform.com/to/xQcmEslD'" href="https://rowdyhacks.typeform.com/to/xQcmEslD">Register as a Hacker</a>
+                            <a class="main-button button" onclick="window.location.href='https://rowdyhacks.typeform.com/to/mqRNwlsu'" href="https://rowdyhacks.typeform.com/to/mqRNwlsu" style="margin-top: 15px;" >Register as a Mentor</a>
                         </div>
                     </div>
                 </div>
@@ -92,6 +84,11 @@
         <section id="about-us">
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.1s">
+                        <div class="center-heading">
+                            <h2>About <em>Us</em></h2>
+                        </div>
+                    </div>
                     <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big hide-image-on-mobile" data-scroll-reveal="enter left move 30px over 0.6s after 0.2s">
                         <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
                     </div>
@@ -128,7 +125,6 @@
                     <div class="col-lg-12" data-scroll-reveal="enter top move 30px over 0.6s after 0.1s">
                         <div class="center-heading">
                             <h2>The <em>Tracks</em></h2>
-<!--                            <p>Text can go here describing what a track is quickly.</p>-->
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.1s">
@@ -138,9 +134,6 @@
                                 <img src="assets/images/tracks-icon-1.png" alt="">
                                 <h4>General Track</h4>
                                 <p>This track is for all hackers! From hardware, to software, or anything in between, come build whatever your heart desires! The general track is for those who have a bit of programming experience and don't need much guidance. However, hackers of all skill levels are welcomed and supported! </p>
-<!--                                <a href="#" class="main-button">-->
-<!--                                    Read More-->
-<!--                                </a>-->
                             </div>
                         </div>
                     </div>
@@ -151,9 +144,6 @@
                                 <img src="assets/images/tracks-icon-2.png" alt="">
                                 <h4>Beginner Track</h4>
                                 <p>This track is for those who are new to hackathons and don't know how to code! The beginner track starts with an intro to hackathon workshop right before the opening ceremony and includes beginner friendly workshops that will help you be successful at CodeQuantum! No coding experience needed!</p>
-<!--                                <a href="#" class="main-button">-->
-<!--                                    Discover More-->
-<!--                                </a>-->
                             </div>
                         </div>
                     </div>
@@ -162,64 +152,45 @@
         </section>
 
         <div class="right-image-decor"></div>
-        
 
-<!--
-        <section id="schedule">
+        <section id="location">
             <div class="container">
-                <div class="row d-flex justify-content-center">
+                <div class="row">
                     <div class="col-lg-12" data-scroll-reveal="enter top move 30px over 0.6s after 0.1s">
                         <div class="center-heading">
-                            <h2>The <em>Schedule</em></h2>
-                            <div class="col text-center">
-                                <a href="" class="main-button button">Coming Soon!</a>
-                            </div>
+                            <h2>The <em>Location</em></h2>
                         </div>
-                    </div>                    
+                    </div>
+                    <div class="right-text offset-lg-3 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">
+                        <ul>
+                            <li data-scroll-reveal="enter right move 30px over 0.6s after 0.2s">
+                                <div class="text text-center">
+                                    <p>
+                                        Code Quantum 2021 will be held <em>virtually!</em> Keep any eye out on how to join our platform as we get close to the day of the hackathon.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
--->
 
-        <!-- TODO: add Location/Schedule -->
-<!--            <section id="location">-->
-<!--                <div class="container">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-lg-12" data-scroll-reveal="enter top move 30px over 0.6s after 0.1s">-->
-<!--                            <div class="center-heading">-->
-<!--                                <h2><em>Location</em></h2>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="right-text offset-lg-1 col-lg-6 col-md-12 col-sm-12 mobile-bottom-fix">-->
-<!--                            <ul>-->
-<!--                                <li data-scroll-reveal="enter right move 30px over 0.6s after 0.2s">-->
-<!--                                    <img src="assets/images/about-icon.png" alt="">-->
-<!--                                    <div class="text">-->
-<!--                                        <h4>Where?</h4>-->
-<!--                                        <p>-->
-<!--                                            Currently being decided :)-->
-<!--                                        </p>-->
-<!--                                    </div>-->
-<!--                                </li>-->
-<!--                                &lt;!&ndash;                            <li data-scroll-reveal="enter right move 30px over 0.6s after 0.3s">&ndash;&gt;-->
-<!--                                &lt;!&ndash;                                <img src="assets/images/about-icon.png" alt="">&ndash;&gt;-->
-<!--                                &lt;!&ndash;                                <div class="text">&ndash;&gt;-->
-<!--                                &lt;!&ndash;                                    <h4>What is CodeQuantum?</h4>&ndash;&gt;-->
-<!--                                &lt;!&ndash;                                    <p>&ndash;&gt;-->
-<!--                                &lt;!&ndash;                                        <span>CodeQuantum</span> is San Antonio’s first 24 hour hackathon geared towards femininity! Organized by the ACM-W chapter at UTSA, CodeQuantum is dedicated to creating a safe hacking space for those who are feminine, non-binary, and allies in the tech field.&ndash;&gt;-->
-<!--                                &lt;!&ndash;                                    </p>&ndash;&gt;-->
-<!--                                &lt;!&ndash;                                </div>&ndash;&gt;-->
-<!--                                &lt;!&ndash;                            </li>&ndash;&gt;-->
-<!--                            </ul>-->
-<!--                        </div>-->
-<!--                        <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big hide-image-on-mobile" data-scroll-reveal="enter left move 30px over 0.6s after 0.2s">-->
-<!--                            <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </section>-->
-
-        <!-- TODO: add Sponsors -->
+        <!-- TODO: add schedule from Notion -->
+        <!--        <section id="schedule">-->
+        <!--            <div class="container">-->
+        <!--                <div class="row d-flex justify-content-center">-->
+        <!--                    <div class="col-lg-12" data-scroll-reveal="enter top move 30px over 0.6s after 0.1s">-->
+        <!--                        <div class="center-heading">-->
+        <!--                            <h2>The <em>Schedule</em></h2>-->
+        <!--                            <div class="col text-center">-->
+        <!--                                <a href="" class="main-button button">Coming Soon!</a>-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+        <!--                    </div>                    -->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </section>-->
 
         <section id="faq">
             <div class="container">
@@ -232,6 +203,12 @@
 
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-10 accordion">
+                            <div class="accordion-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.1s">
+                                <a>What is a hackathon?</a>
+                                <div class="content">
+                                    <p>A hackathon is a technology focused event where individuals can come together and work on new projects in a short period of time. During this period you can build anything you want, an app, a robot, a website, the only limitation is your imagination! CodeQuantum will be a 24 hour hackathon that is filled with mini events, workshops, and hacking! ✨</p>
+                                </div>
+                            </div>
                             <div class="accordion-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.1s">
                                 <a>What can you do at CodeQuantum?</a>
                                 <div class="content">
@@ -247,9 +224,33 @@
                                 </div>
                             </div>
                             <div class="accordion-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.1s">
-                                <a>Who can attend?</a>
+                                <a>Who can attend CodeQuantum?</a>
                                 <div class="content">
                                     <p>You may register as a hacker if you identify as a marginalized gender including, but not limited to, cisgender women, transgender women, transgender men, non-binary individuals, gender neutral individuals, genderqueer individuals, agender individuals, pangender individuals, or a gender who is otherwise underrepresented in tech.  You must be a college student/recent graduate that is above 18+!✨</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.1s">
+                                <a>Do I need to know how to code?</a>
+                                <div class="content">
+                                    <p>No, you don't! You do not need any background in technology to join, everyone is welcome! Students of all skill levels are encouraged to attend, we are very beginner friendly and are prepared to guide you through this years event!✨</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.1s">
+                                <a>Why a hackathon for marginalized genders?</a>
+                                <div class="content">
+                                    <p>Historically, people of marginalized genders have been underrepresented in the tech world. To change that, CodeQuantum has been established to cultivate an environment where those of systematically oppressed gender identities can be empowered and explore technology! ✨</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.1s">
+                                <a>What if I am not a marginalized gender but still want to participate?</a>
+                                <div class="content">
+                                    <p>This hackathon is geared towards marginalized genders only, which means you won't be able to become a hacker. However, our workshops and some special events (will be released later) will be available for those who are interested in joining! You won't be able to submit a project, get SWAG, or earn prizes, but you'll be able to learn alongside our hackers! Follow our social media to get notified when workshops and events are open for you!✨</p>
+                                </div>
+                            </div>
+                            <div class="accordion-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.1s">
+                                <a>How much does it cost to attend CodeQuantum?</a>
+                                <div class="content">
+                                    <p>CodeQuantum is <b>FREE</b> for all participants thanks to our amazing sponsors!✨</p>
                                 </div>
                             </div>
                             <div class="accordion-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.1s">
@@ -277,9 +278,9 @@
                                 </div>
                             </div>
                             <div class="accordion-item" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.1s">
-                                <a>Will there be SWAG?</a>
+                                <a>What is SWAG and will I get some?</a>
                                 <div class="content">
-                                    <p>Yes! We will be sending out a form to gather your shipping information during the event, so be on the lookout for that! ✨</p>
+                                    <p>SWAG is a form of branded merchandise that is given away to our hackers as a way to say thanks for innovating with us! We will be sending out a form to gather your shipping information during the event, so be on the lookout for that! ✨</p>
                                 </div>
                             </div>
                         </div>
@@ -288,89 +289,25 @@
             </div>
         </section>
 
-        <!-- Possible Mentor Section? -->
-<!--        <section class="section" id="testimonials">-->
+<!--        <div class="left-image-decor"></div>-->
+
+<!--        <section id="sponsors">-->
 <!--            <div class="container">-->
 <!--                <div class="row">-->
-<!--                    <div class="col-lg-8 offset-lg-2">-->
+<!--                    <div class="col-lg-8 offset-lg-2" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">-->
 <!--                        <div class="center-heading">-->
-<!--                            <h2>What They Think <em>About Us</em></h2>-->
-<!--                            <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.-->
-<!--                                Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>-->
+<!--                            <h2>Meet our <em>Sponsors</em></h2>-->
+<!--                            <p>Without them, events like this would not be possible!</p> &lt;!&ndash; need to increase this font size &ndash;&gt;-->
 <!--                        </div>-->
 <!--                    </div>-->
-<!--                    <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"-->
-<!--                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">-->
-<!--                        <div class="owl-carousel owl-theme">-->
-<!--                            <div class="item service-item">-->
-<!--                                <div class="author">-->
-<!--                                    <i><img src="assets/images/testimonial-author-1.png" alt="Author One"></i>-->
-<!--                                </div>-->
-<!--                                <div class="testimonial-content">-->
-<!--                                    <ul class="stars">-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                    </ul>-->
-<!--                                    <h4>Jonathan Smart</h4>-->
-<!--                                    <p>“Nullam hendrerit, elit a semper pharetra, ipsum nibh tristique tortor, in tempus-->
-<!--                                        urna elit in mauris.”</p>-->
-<!--                                    <span>Besta CTO</span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="item service-item">-->
-<!--                                <div class="author">-->
-<!--                                    <i><img src="assets/images/testimonial-author-1.png" alt="Second Author"></i>-->
-<!--                                </div>-->
-<!--                                <div class="testimonial-content">-->
-<!--                                    <ul class="stars">-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                    </ul>-->
-<!--                                    <h4>Martino Tino</h4>-->
-<!--                                    <p>“Morbi non mi luctus felis molestie scelerisque. In ac libero viverra, placerat est-->
-<!--                                        interdum, rhoncus leo.”</p>-->
-<!--                                    <span>Web Analyst</span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="item service-item">-->
-<!--                                <div class="author">-->
-<!--                                    <i><img src="assets/images/testimonial-author-1.png" alt="Author Third"></i>-->
-<!--                                </div>-->
-<!--                                <div class="testimonial-content">-->
-<!--                                    <ul class="stars">-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                    </ul>-->
-<!--                                    <h4>George Tasa</h4>-->
-<!--                                    <p>“Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,-->
-<!--                                        congue a fringilla sed, maximus et urna.”</p>-->
-<!--                                    <span>System Admin</span>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="item service-item">-->
-<!--                                <div class="author">-->
-<!--                                    <i><img src="assets/images/testimonial-author-1.png" alt="Fourth Author"></i>-->
-<!--                                </div>-->
-<!--                                <div class="testimonial-content">-->
-<!--                                    <ul class="stars">-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                        <li><i class="fa fa-star"></i></li>-->
-<!--                                    </ul>-->
-<!--                                    <h4>Sir James</h4>-->
-<!--                                    <p>"Fusce rutrum in dolor sit amet lobortis. Ut at vehicula justo. Donec quam dolor,-->
-<!--                                        congue a fringilla sed, maximus et urna."</p>-->
-<!--                                    <span>New Villager</span>-->
-<!--                                </div>-->
-<!--                            </div>-->
+<!--                    <div class="offset-lg-1 col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big align-items-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">-->
+<!--                        <div class="row sponsor-carousel">-->
+<!--                            <img src="assets/images/sponsors/google.png" alt="Google logo">-->
+<!--                            <img src="assets/images/sponsors/HEB.png" alt="HEB logo">-->
+<!--                            <img src="assets/images/sponsors/jpmorgan-chase.png" alt="JP Morgan Chase logo">-->
+<!--                            <img src="assets/images/sponsors/paycom.png" alt="Paycom logo">-->
+<!--                            <img src="assets/images/sponsors/valero.png" alt="Valero logo">-->
+<!--                            <img src="assets/images/sponsors/matrix.png" alt="MATRIX AI logo">-->
 <!--                        </div>-->
 <!--                    </div>-->
 <!--                </div>-->
@@ -416,7 +353,6 @@
         <script src="assets/js/popper.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <!-- Plugins -->
-        <script src="assets/js/owl-carousel.js"></script>
         <script src="assets/js/scrollreveal.min.js"></script>
         <script src="assets/js/waypoints.min.js"></script>
         <script src="assets/js/jquery.counterup.min.js"></script>
@@ -424,5 +360,7 @@
         <!-- Custom JS -->
         <script src="assets/js/main.js"></script>
         <script src="assets/js/faq.js"></script>
+        <!-- Slick -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </body>
 </html>

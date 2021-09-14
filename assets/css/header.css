@@ -1,5 +1,9 @@
 @import "theme-variables.css";
 
+#header {
+    z-index: 999;
+}
+
 .background-header {
     background-color: var(--primaryBackground);
     height: 80px !important;

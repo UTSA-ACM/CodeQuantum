@@ -1,0 +1,12 @@
+@import "theme-variables.css";
+
+#sponsors .sponsor-carousel {
+    /*background-color: #C97CD820;*/
+    /*padding: 15px;*/
+    /*border-radius: 15px;*/
+}
+
+#sponsors .card {
+    background-color: #C97CD820;
+    border-radius: 15px;
+}

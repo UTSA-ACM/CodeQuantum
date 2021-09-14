@@ -1,7 +1,6 @@
 @import "theme-variables.css";
 
 #tracks {
-    padding: 100px 0px;
     position: relative;
     z-index: 9;
 }

@@ -2,26 +2,6 @@
 
 	"use strict";
 
-
-	$('.owl-carousel').owlCarousel({
-		loop: true,
-		margin: 30,
-		nav: true,
-		pagination: true,
-		responsive: {
-			0: {
-				items: 1
-			},
-			600: {
-				items: 1
-			},
-			1000: {
-				items: 2
-			}
-		}
-	})
-
-
 	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();
 		var box = $('.hero-text').height();
@@ -112,7 +92,38 @@
 				}
 			});
 		})
+
+		$('.sponsor-carousel').slick({
+			lazyLoad: 'ondemand',
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 1500,
+			arrows: false,
+			initialSlide: randomFirstSlide(),
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+					}
+				},
+				{
+					breakpoint: 767,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2,
+					}
+				}
+			]
+		});
 	});
+
+	// random function for choosing first carousel slide
+	function randomFirstSlide() {
+		return Math.floor(Math.random() * 6);
+	}
 
 	const Accordion = {
 		settings: {
