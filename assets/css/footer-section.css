@@ -134,12 +134,12 @@ footer .social li a {
     background-color: var(--activeColor);
     text-align: center;
     border: 1px solid var(--activeColor);
-    width: 44px;
-    height: 44px;
-    line-height: 44px;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
     border-radius: 50%;
     display: inline-block;
-    font-size: 16px;
+    font-size: 40px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
