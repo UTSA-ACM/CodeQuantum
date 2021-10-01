@@ -103,7 +103,7 @@
     }
 
     .container-fluid .col-md-12 {
-        margin-right: 0px;
-        padding-right: 0px;
+        margin-right: 0;
+        padding-right: 0;
     }
 }

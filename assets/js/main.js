@@ -100,6 +100,7 @@
 			autoplay: true,
 			autoplaySpeed: 1500,
 			arrows: false,
+			pauseOnHover: false,
 			initialSlide: randomFirstSlide(),
 			responsive: [
 				{
@@ -113,7 +114,7 @@
 					breakpoint: 767,
 					settings: {
 						slidesToShow: 2,
-						slidesToScroll: 2,
+						slidesToScroll: 1,
 					}
 				}
 			]
