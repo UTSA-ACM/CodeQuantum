@@ -5,10 +5,30 @@
 /*    border-radius: 15px;*/
 /*}*/
 
-#sponsors img {
-    width: 465px;
-}
+/*#sponsors img {*/
+/*    width: 465px;*/
+/*}*/
 
 #sponsors .image-container {
-    height: 330px;
+    height: 200px;
+}
+
+#sponsors .image-restrictions {
+    max-height: 330px;
+    max-width: 275px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 975px) {
+    #sponsors .image-restrictions {
+        max-width: 225px;
+    }
+}
+
+@media (max-width: 767px) {
+    #sponsors .image-restrictions {
+        max-width: 150px;
+    }
 }
