@@ -1,16 +1,8 @@
 @import "theme-variables.css";
 
-/*#sponsors .card {*/
-/*    background-color: #C97CD820;*/
-/*    border-radius: 15px;*/
-/*}*/
-
-/*#sponsors img {*/
-/*    width: 465px;*/
-/*}*/
-
 #sponsors .image-container {
     height: 200px;
+    padding: 5px;
 }
 
 #sponsors .image-restrictions {
