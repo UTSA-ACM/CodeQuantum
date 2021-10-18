@@ -82,6 +82,9 @@
 .header-area .main-nav .nav li {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.text-outline {
     -webkit-text-stroke-width: .3px;
     -webkit-text-stroke-color: black;
 }
