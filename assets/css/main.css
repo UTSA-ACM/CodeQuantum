@@ -241,7 +241,7 @@ button.main-button:hover {
   text-align: center;
 }
 
-#hero, #about-us, #tracks, #location, #schedule, #faq, #sponsors, #connect {
+#hero, #about-us, #tracks, #location, #schedule, #faq, #team, #sponsors, #connect {
   position: relative;
   z-index: 999;
 }
@@ -282,7 +282,7 @@ button.main-button:hover {
   }
 }
 
-#about-us, #tracks, #location, #schedule, #faq, #sponsors {
+#about-us, #tracks, #location, #team, #faq, #sponsors {
   padding: 100px 0;
 }
 
